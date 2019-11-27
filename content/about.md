@@ -3,14 +3,8 @@ title = "About Me"
 date = "2019-11-26"
 +++
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+I am a full stack developer. I spend most of my time on Linux writing software
+and contributing to open source. I'm a quick learner and enjoy learning
+anything related to computers and technology.
 
-It makes use of a variety of open source projects including:
-
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Here is my [resume](https://github.com/codebam/resume/releases/latest/download/resume.pdf).
