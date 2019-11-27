@@ -1,58 +1,48 @@
 baseURL = "https://www.seanbehan.dev"
-languageCode = "en-US"
-title = "Sean Behan"
-theme = "LeaveIt"
-
-paginate = 12
-enableEmoji = true
-enableRobotsTXT = true
-googleAnalytics = ""
-
-[blackfriday]
-  hrefTargetBlank = true
-  nofollowLinks = true
-  noreferrerLinks = true
-
-[Permalinks]
- posts = "/:year/:filename/"
-
-[menu]
-  # [[menu.main]]
-  #   name = "Blog"
-  #   url = "/posts/"
-  #   weight = 1
-
-  # [[menu.main]]
-  #   name = "Categories"
-  #   url = "/categories/"
-  #   weight = 2
-
-  # [[menu.main]]
-  #   name = "Tags"
-  #   url = "/tags/"
-  #   weight = 3
-
-  [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 4
+languageCode = "en-us"
+theme = "hugo-theme-terminal"
+paginate = 5
 
 [params]
-    since = 2012
-    author = "Sean Behan"                           # Author's name
-    avatar = "https://avatars1.githubusercontent.com/u/6035884?s=460&v=4"           # Author's avatar
-    subtitle = "- converting coffee into code -"         # Subtitle
-    # cdn_url = ""           # Base CDN URL
-    # home_mode = "" # post or other
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "red"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+  # show selector to switch language
+  showLanguageSelector = false
+  # set theme to full screen width
+  fullWidthTheme = false
+  # center theme with default width
+  centerTheme = true
+  # set a custom favicon (default is a `themeColor` square)
+  # favicon = "favicon.ico"
 
-    # google_verification = ""
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Sean Behan"
+    subtitle = "converting coffee into code"
+    keywords = "blog"
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
 
-    description = "Sean Behan's personal website" # site description
-    keywords = "blog" # site keywords
+    [languages.en.params.logo]
+      logoText = "Sean Behan"
+      logoHomeLink = "/"
 
-    # license= ''
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "https://github.com/codebam"
 
-[params.social]
-    GitHub = "codebam"
-    Email   = "seanwbehan@riseup.net"
-    Telegram = "seanbehan"
+[permalinks]
+ posts = "/:year/:filename/"
