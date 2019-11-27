@@ -41,7 +41,7 @@ googleAnalytics = ""
     since = 2012
     author = "Sean Behan"                           # Author's name
     avatar = "https://avatars1.githubusercontent.com/u/6035884?s=460&v=4"           # Author's avatar
-    subtitle = "can convert coffee into code for $"         # Subtitle
+    subtitle = "- converting coffee into code -"         # Subtitle
     # cdn_url = ""           # Base CDN URL
     # home_mode = "" # post or other
 
