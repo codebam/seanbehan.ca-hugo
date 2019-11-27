@@ -1,4 +1,60 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://www.seanbehan.dev"
+languageCode = "en-US"
+title = "Sean Behan"
 theme = "LeaveIt"
+
+paginate = 12
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+ posts = "/:year/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+
+  # [[menu.main]]
+  #   name = "Tags"
+  #   url = "/tags/"
+  #   weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[params]
+    since = 2012
+    author = "Sean Behan"                           # Author's name
+    avatar = "https://avatars1.githubusercontent.com/u/6035884?s=460&v=4"           # Author's avatar
+    subtitle = "can convert coffee into code for $"         # Subtitle
+    # cdn_url = ""           # Base CDN URL
+    # home_mode = "" # post or other
+
+    # google_verification = ""
+
+    description = "Sean Behan's personal website" # site description
+    keywords = "blog" # site keywords
+
+    # license= ''
+
+[params.social]
+    GitHub = "codebam"
+    Email   = "seanwbehan@riseup.net"
+    Instagram = "seanwbehan"
+    Facebook = "seanwbehan"
+    Telegram = "seanbehan"
