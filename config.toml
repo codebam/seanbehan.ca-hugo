@@ -44,5 +44,20 @@ paginate = 5
         name = "Showcase"
         url = "https://github.com/codebam"
 
+
+[privacy]
+    [privacy.disqus]
+        disable = true
+    [privacy.googleAnalytics]
+        disable = true
+    [privacy.instagram]
+        disable = true
+    [privacy.twitter]
+        disable = true
+    [privacy.vimeo]
+        disable = true
+    [privacy.youtube]
+        disable = true
+
 [permalinks]
  posts = "/:year/:filename/"
