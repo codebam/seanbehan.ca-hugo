@@ -1,17 +1,17 @@
 +++
 title = "About Me"
-date = "2019-11-26"
+date = "2020-11-17"
 +++
 
-I am a full stack developer. I spend most of my time on Linux writing software
-and contributing to open source.
+I am a full stack developer. I've tried most programming languages but my
+favorites are Rust, Javascript, Python, and Scheme. I spend most of my time
+customizing my Linux configuration when I'm not busy coding.
 
-Here is my [resume](https://github.com/codebam/resume/releases/latest/download/resume.pdf).
+[Resume](https://github.com/codebam/resume/releases/latest/download/resume.pdf).
 
-## Need to get in contact with me?
+Contact info in order of priority
 
-Contact info in order of priority and how often I check each one.
-
+- [Matrix](https://matrix.to/#/@sean:kde.org)
 - [Telegram](https://t.me/seanbehan)
 - [Email](mailto:seanwbehan@riseup.net)
 - [LinkedIn](https://www.linkedin.com/in/sean-behan)
