@@ -1,6 +1,3 @@
-Sean Behan
-======
-
 Hi, I'm a software developer currently attending Trent University. If you like
 code, check out my [GitHub](https://github.com/codebam).
 
