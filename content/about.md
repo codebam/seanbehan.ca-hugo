@@ -14,6 +14,7 @@ Below are links to some of my accounts.
 * [Matrix](https://matrix.to/#/@sean:kde.org)
 * [Mastodon](https://mstdn.io/@sb)
 * [GitHub](https://github.com/codebam)
+* [SourceHut](https://git.sr.ht/~codebam)
 * [GitLab](https://gitlab.com/seanbehan)
 * [Email](mailto:codebam@riseup.net)
 * [PGP: F9BC985B3BF972C7](/publickey.txt)
