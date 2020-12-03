@@ -1,9 +1,7 @@
 +++
-title = "About Me"
+title = "About"
 date = "2020-11-17"
 +++
-
-# About
 
 Hi, I'm a software developer. My favorite programming languages to code in are
 Rust, Javascript, Python, and C#. I spend most of my time customizing my Linux
