@@ -1,0 +1,16 @@
+@media (max-width: 600px) {
+	body {
+		max-width: 500px;
+		padding: 0 5%;
+	}
+
+	header#banner nav {
+		display: block;
+		padding: 1rem 0 0.5rem;
+	}
+
+	header#banner nav ul li {
+		display: block;
+		padding: 0.25rem 0;
+	}
+}

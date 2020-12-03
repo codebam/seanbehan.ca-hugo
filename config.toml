@@ -1,63 +1,66 @@
-baseURL = "https://www.seanbehan.dev"
+baseURL = "https://seanbehan.dev"
 languageCode = "en-us"
-theme = "hugo-theme-terminal"
-paginate = 5
+title = "Sean Behan"
+theme = "etch-custom"
+
+enableInlineShortcodes = true
+# disablePathToLower = true
+uglyurls = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
 [params]
-  # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "red"
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
-  # show selector to switch language
-  showLanguageSelector = false
-  # set theme to full screen width
-  fullWidthTheme = false
-  # center theme with default width
-  centerTheme = true
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+description = "Sean Behan's personal website"
+src = "https://github.com/codebam/seanbehan.dev"
+copyright = "Copyright © 2020 Sean Behan"
+dark = "auto"
+highlight = false
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    title = "Sean Behan"
-    subtitle = "converting coffee into code"
-    keywords = "blog"
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-
-    [languages.en.params.logo]
-      logoText = "Sean Behan"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "https://github.com/codebam"
-
-
-[privacy]
-    [privacy.disqus]
-        disable = true
-    [privacy.googleAnalytics]
-        disable = true
-    [privacy.instagram]
-        disable = true
-    [privacy.twitter]
-        disable = true
-    [privacy.vimeo]
-        disable = true
-    [privacy.youtube]
-        disable = true
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about.html"
+  [[menu.main]]
+    identifier = "git"
+    name = "git"
+    url = "https://github.com/codebam"
+  [[menu.main]]
+    identifier = "rss"
+    name = "rss"
+    url = "/posts/index.xml"
 
 [permalinks]
- posts = "/:year/:filename/"
+posts = "/:year/:month/:day/:filename"
+
+[markup.goldmark.renderer]
+# Allows HTML in Markdown
+unsafe = true
+
+[markup.tableOfContents]
+ordered = true
+
+# lifted from https://git.sr.ht/~sircmpwn/drewdevault.com
+[mediaTypes]
+[mediaTypes."text/gemini"]
+suffixes = ["gmi"]
+
+[outputFormats]
+[outputFormats.Gemini]
+name = "GEMTEXT"
+isPlainText = true
+isHTML = false
+mediaType = "text/gemini"
+protocol = "gemini://"
+permalinkable = true
+path = "gemini/"
+
+[outputFormats.GEMRSS]
+name = "GEMRSS"
+isHTML = false
+mediaType = "application/rss+xml"
+protocol = "gemini://"
+path = "gemini/"
+
+[outputs]
+section = ["HTML", "RSS", "GEMRSS"]
