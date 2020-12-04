@@ -1,4 +1,4 @@
-baseURL = "https://seanbehan.dev"
+baseURL = "/"
 languageCode = "en-us"
 title = "Sean Behan"
 theme = "etch-custom"
