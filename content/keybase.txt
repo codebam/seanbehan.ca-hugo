@@ -1,0 +1,62 @@
+==================================================================
+https://keybase.io/codebam
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://seanbehan.dev
+  * I am codebam (https://keybase.io/codebam) on keybase.
+  * I have a public key with fingerprint 24C5 21A3 F3E1 1560 DAB6  188D F9BC 985B 3BF9 72C7
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01165b5de212a0cf2c597199e7f3d0c2aafccfae298496f6d67b3233892721213bf20a",
+      "fingerprint": "24c521a3f3e11560dab6188df9bc985b3bf972c7",
+      "host": "keybase.io",
+      "key_id": "f9bc985b3bf972c7",
+      "kid": "01165b5de212a0cf2c597199e7f3d0c2aafccfae298496f6d67b3233892721213bf20a",
+      "uid": "a311f51b1008c7da7c2b598dab139c19",
+      "username": "codebam"
+    },
+    "service": {
+      "hostname": "seanbehan.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1607213169,
+  "expire_in": 157680000,
+  "prev": "f8c4103f9326c78e49330bd77bbe08f9a594a55ef40b1f7cf3899f1843b59953",
+  "seqno": 49,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owJ4nK1Sv2sUQRjd0yR4B0EJ3GEjXAbBwjPMj52dmbU1aCHaSDBarPPzsvmxe+7u
+nYYYhau0ECxE0vsHWAimsVRSaCwsRQQLC2urVHH2SDpLpxnmm/fe997H92L2ZNDq
+HLzfuXv5oNhrfPqtguRzt9oCKjebIN4Ca3Zy2XVjyypZSw2IAUQooooaixGWUDus
+qWBICMscMVBjKZ3WTloseCgiF5mIKYIJ4QIzT0FEOQwl6AGXZn1bDIo0q7wsDjXF
+SBJHLEI0gkaqCHFunFBacKo8TTCsmSeu5GXN8OaULO1CmvuafyQTe//A/2ffw4mc
+JAg5ihSCkGtmJNNYUcG9bUSERqIGlrbI5Ib1aJ0bq+QG2O4BXxyl2tZzrYMcAUor
+M2VXZLZg7MhzB0Ve5Tpf918rVTUo45pabQ5q7AOrkiOVRKWZ8XP0jJEtyjTPQIw8
+UldpLYsi6L0TFIkesA8HaWGTtEZQFnHoT93Ht/NT4zpEkCw7QXCkGbehIAQqw5hS
+FnInJBWhpNS6ECrkmHZ+LsIhHhKfWlAC6mD3sxzEoe9VyX6dKe1nshoWFmy3ng6n
+gk4rONeZnzr/cf71n5/te9/enX1+vHvTJ+rFC1rNM8eV9lxweH1pcaZ5ofvM3Pr1
+Zm6c7VxdvfGKL38ff7l2++WHm+P94DBrduOZU7ujveknjdPVo7dLXxcvPW7f2Y1+
+7F+srsw2/gJGCeg2
+=A0Yq
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/codebam
+
+==================================================================
