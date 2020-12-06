@@ -18,3 +18,4 @@ Below are links to some of my accounts.
 * [GitLab](https://gitlab.com/seanbehan)
 * [Email](mailto:codebam@riseup.net)
 * [PGP: F9BC985B3BF972C7](/publickey.txt)
+* [Keybase](https://keybase.io/codebam)
