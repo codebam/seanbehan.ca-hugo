@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo publishing to www
-rm -rf public && hugo && rsync -r public/ codebam@seanbehan.dev:/var/www/htdocs/seanbehan.dev
+rm -rf public && hugo && rsync -r public/ codebam@seanbehan.dev:/var/www/htdocs/seanbehan.dev --delete
 
 echo publishing to ipfs
 # rsync ipfs_publish.sh codebam@seanbehan.dev:ipfs_publish.sh
