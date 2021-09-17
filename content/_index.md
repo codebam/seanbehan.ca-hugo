@@ -1,3 +1,9 @@
+---
+title: "Sean Behan"
+date: 2020-12-03T22:09:46-05:00
+draft: false
+---
+
 Hi, I'm a software developer currently attending Trent University. If you like
 code, check out my [GitHub](https://github.com/codebam).
 
