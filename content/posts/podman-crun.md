@@ -44,7 +44,7 @@ Then we can enable linger. This will also allow our containers to remain
 running after logging out.
 
 ```
-sudo systemctl enable-linger codebam
+sudo loginctl enable-linger codebam
 ```
 
 Then the last step which made everything work for me is to set the
