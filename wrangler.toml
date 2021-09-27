@@ -1,0 +1,7 @@
+name = "seanbehan-ca"
+type = "webpack"
+account_id = "your-account-id"
+workers_dev = false
+route = "seanbehan.ca/*"
+zone_id = "your-zone-id"
+site = { bucket = "./public" }
