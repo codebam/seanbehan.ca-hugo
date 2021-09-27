@@ -1,0 +1,26 @@
+name: Deploy to Cloudflare Workers Sites
+
+on:
+  push:
+	branches:
+	  - master
+
+jobs:
+  deploy:
+	runs-on: ubuntu-latest
+
+	steps:
+	  - uses: actions/checkout@v2
+
+	  - name: Setup Latest Version of Hugo
+		uses: peaceiris/actions-hugo@v2
+		with:
+		  hugo-version: 'latest'
+
+	  - name: Build Hugo Site
+		run: hugo --minify --gc
+
+	  - name: Publish to Cloudflare Workers Sites
+		uses: cloudflare/wrangler-action@1.3.0
+		with:
+			apiToken: ${{ secrets.CF_API_TOKEN }}
