@@ -1,7 +1,6 @@
 ---
 title: "Sean Behan"
-date: 2020-12-03T22:09:46-05:00
-draft: false
+date: 2022-2-26
 ---
 
 Hi, I'm a software developer currently attending Trent University. If you like
@@ -19,5 +18,5 @@ Contact me via [email](mailto:codebam@riseup.net). I accept encrypted emails
 using my [PGP key](/publickey.txt).
 
 Chat with me: I prefer Matrix, where my username is
-[@sean:kde.org](https://matrix.to/#/@sean:kde.org). I'm also on IRC with the
-username codebam.
+[@sean:kde.org](https://matrix.to/#/@sean:kde.org). I'm also on
+[Libera](https://libera.chat) IRC with the username codebam.
