@@ -12,7 +12,7 @@ configuration when I'm not busy coding.
 Below are links to some of my accounts.
 
 * [GitHub](https://github.com/codebam)
-* [Matrix](https://matrix.to/#/@sean:kde.org)
+* [Matrix](https://matrix.to/#/@codebam:fedora.im)
 * [Mastodon](https://mstdn.io/@sb)
 * [LinkedIn](https://www.linkedin.com/in/sean-behan)
 * [Email](mailto:codebam@riseup.net)
