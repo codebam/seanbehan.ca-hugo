@@ -16,7 +16,3 @@ Contact
 
 Contact me via [email](mailto:codebam@riseup.net). I accept encrypted emails
 using my [PGP key](/publickey.txt).
-
-Chat with me: I prefer Matrix, where my username is
-[@sean:kde.org](https://matrix.to/#/@sean:kde.org). I'm also on
-[Libera](https://libera.chat) IRC with the username codebam.
