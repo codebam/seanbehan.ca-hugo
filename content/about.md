@@ -21,4 +21,4 @@ Below are links to some of my accounts.
 * [Mastodon](https://mstdn.io/@sb)
 * [LinkedIn](https://www.linkedin.com/in/sean-behan)
 * [Email](mailto:codebam@riseup.net)
-* [PGP: F9BC985B3BF972C7](/publickey.txt)
+* [PGP: F9BC985B3BF972C7](https://github.com/codebam.gpg)
