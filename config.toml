@@ -22,8 +22,8 @@ highlight = false
     name = "about"
     url = "/about.html"
   [[menu.main]]
-    identifier = "git"
-    name = "git"
+    identifier = "portfolio"
+    name = "portfolio"
     url = "https://github.com/codebam"
   [[menu.main]]
     identifier = "rss"
