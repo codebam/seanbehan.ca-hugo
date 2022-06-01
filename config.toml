@@ -18,13 +18,17 @@ highlight = false
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name = "about"
-    url = "/about.html"
-  [[menu.main]]
     identifier = "portfolio"
     name = "portfolio"
     url = "https://github.com/codebam"
+  [[menu.main]]
+    identifier = "resume"
+    name = "resume"
+    url = "/resume.html"
+  [[menu.main]]
+    identifier = "contact"
+    name = "contact"
+    url = "/contact.html"
 
 [permalinks]
 posts = "/:year/:month/:day/:filename"
