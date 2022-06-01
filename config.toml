@@ -1,6 +1,6 @@
 baseURL = "/"
 relativeURLs = true
-languageCode = "en-us"
+languageCode = "en-ca"
 title = "Sean Behan"
 theme = "etch-custom"
 
