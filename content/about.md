@@ -1,9 +1,9 @@
 ---
 title: "About"
-date: 2022-2-26
+date: 2022-5-31
 ---
 
-Hi, I'm a software developer. My favorite programming languages to code in are
+I'm a full stack developer. My favorite programming languages to code in are
 Rust, Javascript, Python, and C#. I spend most of my time customizing my Linux
 configuration when I'm not busy coding.
 
