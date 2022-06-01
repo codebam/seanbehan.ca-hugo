@@ -3,7 +3,7 @@ title: "Sean Behan"
 date: 2022-2-26
 ---
 
-About me
+About
 --------
 
 Check out my [About page](/about.html).
