@@ -1,6 +1,5 @@
 ---
-title: "Contact"
-date: 2022-5-31
+date: 2022-6-1
 ---
 
 * [GitHub](https://github.com/codebam)
