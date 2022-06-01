@@ -25,10 +25,6 @@ highlight = false
     identifier = "portfolio"
     name = "portfolio"
     url = "https://github.com/codebam"
-  [[menu.main]]
-    identifier = "rss"
-    name = "rss"
-    url = "/posts/index.xml"
 
 [permalinks]
 posts = "/:year/:month/:day/:filename"
