@@ -22,7 +22,7 @@ highlight = false
     name = "portfolio"
     url = "https://github.com/codebam"
   [[menu.main]]
-    identifier = "resume"
+    identifier = "resumé"
     name = "resume"
     url = "/resume.html"
   [[menu.main]]
