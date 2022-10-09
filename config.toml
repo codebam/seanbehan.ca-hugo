@@ -29,6 +29,10 @@ highlight = false
     identifier = "contact"
     name = "contact"
     url = "/contact.html"
+  [[menu.main]]
+    identifier = "gaming"
+    name = "gaming"
+    url = "/gaming.html"
 
 [permalinks]
 posts = "/:year/:month/:day/:filename"
