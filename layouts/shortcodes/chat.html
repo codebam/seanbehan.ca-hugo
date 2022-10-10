@@ -7,6 +7,8 @@ initComments({
   defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
   serverName: "cactus.chat",
   siteName: "seanbehan.ca",
-  commentSectionId: "{{ index .Params 0 }}"
+  commentSectionId: "{{ index .Params 0 }}",
+  guestPostingEnabled: false,
+  updateInterval: 1
 })
 </script>
