@@ -7,11 +7,10 @@ date: 2022-10-9
   <vds-media>
      <vds-hls
        controls
-       poster="https://customer-nqr1cy6xpbbv13gu.cloudflarestream.com/aa8b4fda51a38544c9470916f7e4658f/thumbnails/thumbnail.jpg"
      >
        <video
          controls
-         src="https://customer-nqr1cy6xpbbv13gu.cloudflarestream.com/aa8b4fda51a38544c9470916f7e4658f/manifest/video.m3u8?betaCodecSuggestion=av1"
+         src="http://5.161.142.120/stream.mpd"
          preload="none"
        ></video>
      </vds-hls>
