@@ -4,17 +4,7 @@ date: 2022-10-9
 ---
 
 {{< rawhtml >}}
-  <vds-media>
-     <vds-hls
-       controls
-     >
-       <video
-         controls
-         src="http://5.161.142.120/stream.mpd"
-         preload="none"
-       ></video>
-     </vds-hls>
-   </vds-media>
+<video data-dashjs-player="" autoplay="" src="http://5.161.142.120/stream.mpd" controls="true"></video>
 {{< /rawhtml >}}
 
 {{< chat cactus-comments >}}

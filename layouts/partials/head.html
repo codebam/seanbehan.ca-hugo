@@ -20,7 +20,7 @@
 	{{ printf `<link rel="stylesheet" href="/css/syntax.css">` | safeHTML }}
 	{{ end -}}
 	{{ if eq .RelPermalink "/gaming.html" -}}
-	<script type="module" src="https://cdn.jsdelivr.net/npm/@vidstack/player@next/cdn/bundle.js"></script>
+	<script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
 	{{ end -}}
 
 	{{ if eq .RelPermalink "/" -}}
