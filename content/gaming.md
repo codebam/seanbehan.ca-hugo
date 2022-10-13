@@ -7,11 +7,11 @@ date: 2022-10-9
   <vds-media>
      <vds-hls
        controls
-       poster="https://customer-m033z5x00ks6nunl.cloudflarestream.com/b236bde30eb07b9d01318940e5fc3eda/thumbnails/thumbnail.jpg"
+       poster="https://customer-nqr1cy6xpbbv13gu.cloudflarestream.com/aa8b4fda51a38544c9470916f7e4658f/thumbnails/thumbnail.jpg"
      >
        <video
          controls
-         src="https://customer-m033z5x00ks6nunl.cloudflarestream.com/b236bde30eb07b9d01318940e5fc3eda/manifest/video.m3u8?betaCodecSuggestion=av1"
+         src="https://customer-nqr1cy6xpbbv13gu.cloudflarestream.com/aa8b4fda51a38544c9470916f7e4658f/manifest/video.mpd?betaCodecSuggestion=av1"
          preload="none"
        ></video>
      </vds-hls>
