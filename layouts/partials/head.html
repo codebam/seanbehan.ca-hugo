@@ -1,0 +1,31 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{{ with .Site.Params.description -}}
+	<meta name="description" content="{{ . }}">
+	{{ end }}
+	{{ printf `<link rel="shortcut icon" href="%s">` ("favicon.png" | absURL) | safeHTML }}
+	<link href="{{ .Site.BaseURL }}posts/index.xml" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}"/>
+	<link rel="canonical" href="https://seanbehan.ca{{ .RelPermalink }}"/>
+	{{ $resources := slice -}}
+	{{ $resources = $resources | append (resources.Get "/css/main.css") -}}
+	{{ $resources = $resources | append (resources.Get "/css/narrow.css") -}}
+	{{ $dark := .Site.Params.dark | default "auto" -}}
+	{{ if not (eq $dark "off") -}}
+	{{ $resources = $resources | append (resources.Get "css/dark.css" | resources.ExecuteAsTemplate "dark.css" .) -}}
+	{{ end -}}
+	{{ $css := $resources | resources.Concat "css/style.css" | minify }}
+	{{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
+	{{ if .Params.highlight -}}
+	{{ printf `<link rel="stylesheet" href="/css/syntax.css">` | safeHTML }}
+	{{ end -}}
+	{{ if eq .RelPermalink "/gaming.html" -}}
+	<script type="module" src="https://cdn.jsdelivr.net/npm/@vidstack/player@next/cdn/bundle.js"></script>
+	{{ end -}}
+
+	{{ if eq .RelPermalink "/" -}}
+	<title>{{ .Title }}</title>
+	{{ else -}}
+	<title>{{ .Title }} - Sean Behan</title>
+	{{ end -}}
+</head>

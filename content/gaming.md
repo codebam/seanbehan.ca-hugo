@@ -4,7 +4,18 @@ date: 2022-10-9
 ---
 
 {{< rawhtml >}}
-<div style="position: relative; padding-top: 56.25%;"><iframe src="https://customer-nqr1cy6xpbbv13gu.cloudflarestream.com/817583bd076706ef81bc485f7dd4ec58/iframe" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+  <vds-media>
+     <vds-hls
+       controls
+       poster="https://customer-m033z5x00ks6nunl.cloudflarestream.com/b236bde30eb07b9d01318940e5fc3eda/thumbnails/thumbnail.jpg"
+     >
+       <video
+         controls
+         src="https://customer-m033z5x00ks6nunl.cloudflarestream.com/b236bde30eb07b9d01318940e5fc3eda/manifest/video.m3u8?betaCodecSuggestion=av1"
+         preload="none"
+       ></video>
+     </vds-hls>
+   </vds-media>
 {{< /rawhtml >}}
 
 {{< chat cactus-comments >}}
