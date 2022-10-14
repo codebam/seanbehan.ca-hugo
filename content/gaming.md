@@ -4,7 +4,7 @@ date: 2022-10-9
 ---
 
 {{< rawhtml >}}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/live_stream?channel=UCl7aqYpewryAPRqpGmGpoIw" frameborder="0" allowfullscreen></iframe>
+<div style="position: relative; padding-top: 56.25%;"><iframe src="https://customer-nqr1cy6xpbbv13gu.cloudflarestream.com/817583bd076706ef81bc485f7dd4ec58/iframe" style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
 {{< /rawhtml >}}
 
 {{< chat cactus-comments >}}
