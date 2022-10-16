@@ -23,6 +23,9 @@
 	<script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
 	<link rel="stylesheet" href="/css/gaming.css">
 	{{ end -}}
+	{{ if eq .RelPermalink "/gaming-hls.html" -}}
+	<link rel="stylesheet" href="/css/gaming.css">
+	{{ end -}}
 
 	{{ if eq .RelPermalink "/" -}}
 	<title>{{ .Title }}</title>
