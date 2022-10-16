@@ -21,7 +21,7 @@
 	{{ end -}}
 	{{ if eq .RelPermalink "/gaming.html" -}}
 	<script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
-	{{ $resources = $resources | append (resources.Get "/css/gaming.css") -}}
+	<link rel="stylesheet" href="/css/gaming.css">
 	{{ end -}}
 
 	{{ if eq .RelPermalink "/" -}}
