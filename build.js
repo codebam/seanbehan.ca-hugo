@@ -10,4 +10,5 @@ esbuild.build({
   logLevel: "info",
   minify: true,
   sourcemap: true,
+  splitting: true,
 });
