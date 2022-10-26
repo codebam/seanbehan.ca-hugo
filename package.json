@@ -34,5 +34,8 @@
     "dev": "hugo --minify --gc --watch"
   },
   "type": "module",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.18.0"
+  }
 }

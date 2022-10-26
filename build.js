@@ -3,11 +3,11 @@ import { globPlugin } from "esbuild-plugin-glob";
 import sveltePlugin from "esbuild-svelte";
 
 esbuild.build({
-  entryPoints: ["src/**/*"],
+  entryPoints: ["src/**/*.js", "src/**/*.ts", "src/**/*.svelte"],
   mainFields: ["svelte", "browser", "module", "main"],
   bundle: true,
   format: "esm",
-  outdir: "public",
+  outdir: ".",
   plugins: [globPlugin(), sveltePlugin()],
   logLevel: "info",
   minify: true,
