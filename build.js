@@ -5,6 +5,7 @@ esbuild.build({
   entryPoints: ["src/index.ts"],
   mainFields: ["svelte", "browser", "module", "main"],
   bundle: true,
+  format: "esm",
   outdir: "public/js",
   plugins: [sveltePlugin()],
   logLevel: "info",
