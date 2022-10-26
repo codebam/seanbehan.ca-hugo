@@ -31,7 +31,8 @@
   },
   "scripts": {
     "build": "hugo --minify --gc && node build.js",
-    "dev": "hugo --minify --gc --watch"
+    "dev": "hugo --minify --gc --watch",
+    "clean": "rm -rf public functions"
   },
   "type": "module",
   "version": "1.0.0",
