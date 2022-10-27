@@ -4,10 +4,13 @@ date: 2022-10-9
 ---
 
 {{< rawhtml >}}
-<video data-dashjs-player="" autoplay="" src="https://dash.seanbehan.ca/dash/stream.mpd" controls="true" muted></video>
+<video autoplay="" controls="true" muted></video>
+<script type="module" src="/webrtc.js"></script>
 {{< /rawhtml >}}
 
 Video not loading?
+
+Try the [Dash player](/gaming-dash)
 
 Try the [HLS player](/gaming-hls)
 
