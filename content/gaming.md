@@ -5,7 +5,7 @@ date: 2022-10-9
 
 {{< rawhtml >}}
 <video autoplay="" controls="true" muted></video>
-<script type="module" src="/webrtc.js"></script>
+<script type="module" src="/js/webrtc.js"></script>
 {{< /rawhtml >}}
 
 Video not loading?
