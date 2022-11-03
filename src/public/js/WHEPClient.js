@@ -17,7 +17,10 @@ export default class WHEPClient {
     this.peerConnection = new RTCPeerConnection({
       iceServers: [
         {
-          urls: "stun:stun.cloudflare.com:3478",
+          urls: [
+            "stun:stun.cloudflare.com:3478",
+            "stun:stun.l.google.com:19302",
+          ],
         },
       ],
       bundlePolicy: "max-bundle",
