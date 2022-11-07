@@ -10,6 +10,5 @@ esbuild.build({
   outdir: ".",
   plugins: [globPlugin(), sveltePlugin()],
   logLevel: "info",
-  minify: true,
   sourcemap: true,
 });
