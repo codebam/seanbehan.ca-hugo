@@ -1,6 +1,6 @@
 ---
 title: "Gaming"
-date: 2022-10-9
+date: 2022-11-15
 ---
 
 {{< rawhtml >}}
@@ -16,10 +16,10 @@ date: 2022-10-9
 
 Video not loading?
 
-Try the [Dash player](/gaming-dash)
-
-Try the [HLS player](/gaming-hls)
-
 Try the [CloudFlare player](/gaming-cf)
+
+Watch on [Twitch](https://www.twitch.tv/codebam)
+
+Watch on [YouTube](https://www.youtube.com/channel/UCl7aqYpewryAPRqpGmGpoIw)
 
 {{< chat cactus-comments >}}
