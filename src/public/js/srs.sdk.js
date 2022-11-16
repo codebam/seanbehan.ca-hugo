@@ -590,4 +590,4 @@ function SrsRtcFormatSenders(senders, kind) {
   return codecs.join(", ");
 }
 
-export default { SrsRtcPlayerAsync, SrsRtcPublisherAsync };
+export { SrsRtcPlayerAsync, SrsRtcPublisherAsync };
