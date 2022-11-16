@@ -1,6 +1,5 @@
 ---
 title: "Gaming"
-date: 2022-11-15
 ---
 
 {{< rawhtml >}}
