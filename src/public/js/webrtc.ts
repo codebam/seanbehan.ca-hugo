@@ -1,4 +1,4 @@
-import SrsRtcPlayerAsync from "./srs.sdk.js";
+import { SrsRtcPlayerAsync } from "./srs.sdk.js";
 
 const video = document.querySelector("video");
 const player = SrsRtcPlayerAsync();
