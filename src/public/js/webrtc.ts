@@ -1,6 +1,6 @@
-import WHEPClient from "./WHEPClient";
+import SrsRtcPlayerAsync from "./srs.sdk.js";
 
-const player = new WHEPClient(
-  "https://live.seanbehan.ca/live/livestream",
-  document.querySelector("video")
-);
+const video = document.querySelector("video");
+const player = SrsRtcPlayerAsync();
+player.play("https://live.seanbehan.ca/live/livestream");
+video.srcObject = player.stream;
