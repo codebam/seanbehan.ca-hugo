@@ -545,7 +545,13 @@ function SrsRtcPlayerAsync() {
     },
   };
 
-  self.pc = new RTCPeerConnection(null);
+  self.pc = new RTCPeerConnection({
+    iceServers: [
+      {
+        urls: ["stun:stun.cloudflare.com:3478", "stun:stun.l.google.com:19302"],
+      },
+    ],
+  });
 
   // Create a stream to add track to the stream, @see https://webrtc.org/getting-started/remote-streams
   self.stream = new MediaStream();
