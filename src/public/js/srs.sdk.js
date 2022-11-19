@@ -285,7 +285,13 @@ function SrsRtcPublisherAsync() {
     },
   };
 
-  self.pc = new RTCPeerConnection(null);
+  self.pc = new RTCPeerConnection({
+    iceServers: [
+      {
+        urls: ["stun:stun.cloudflare.com:3478", "stun:stun.l.google.com:19302"],
+      },
+    ],
+  });
 
   // To keep api consistent between player and publisher.
   // @see https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection/addStream#Migrating_to_addTrack
