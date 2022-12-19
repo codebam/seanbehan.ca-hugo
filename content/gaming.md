@@ -13,8 +13,6 @@ title: "Gaming"
 <script type="module" src="/js/webrtc.js"></script>
 {{< /rawhtml >}}
 
-Video not loading?
-
 Watch on [Twitch](https://www.twitch.tv/codebam)
 
 Watch on [YouTube](https://www.youtube.com/@codebam)
