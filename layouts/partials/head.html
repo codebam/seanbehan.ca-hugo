@@ -19,14 +19,6 @@
 	{{ if .Params.highlight -}}
 	{{ printf `<link rel="stylesheet" href="/css/syntax.css">` | safeHTML }}
 	{{ end -}}
-	{{ if eq .RelPermalink "/gaming.html" -}}
-	<script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
-	<link rel="stylesheet" href="/css/gaming.css">
-	{{ end -}}
-	{{ if eq .RelPermalink "/gaming-hls.html" -}}
-        <script src="//cdn.jsdelivr.net/npm/hls.js@latest"></script>
-	<link rel="stylesheet" href="/css/gaming.css">
-	{{ end -}}
 
 	{{ if eq .RelPermalink "/" -}}
 	<title>{{ .Title }}</title>
