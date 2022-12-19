@@ -11,6 +11,12 @@ title: "Gaming"
   referrerpolicy="no-referrer"
 ></script>
 <script type="module" src="/js/webrtc.js"></script>
+<style>
+video {
+    width: 1000px;
+    max-width: 80vw;
+}
+</style>
 {{< /rawhtml >}}
 
 Watch on [Twitch](https://www.twitch.tv/codebam)
