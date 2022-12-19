@@ -15,10 +15,8 @@ title: "Gaming"
 
 Video not loading?
 
-Try the [CloudFlare player](/gaming-cf)
-
 Watch on [Twitch](https://www.twitch.tv/codebam)
 
-Watch on [YouTube](https://www.youtube.com/channel/UCl7aqYpewryAPRqpGmGpoIw)
+Watch on [YouTube](https://www.youtube.com/@codebam)
 
 {{< chat cactus-comments >}}
