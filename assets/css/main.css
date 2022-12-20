@@ -111,11 +111,7 @@ footer#footer {
 }
 
 .cactus-button {
-  padding-block: inherit !important;
-  padding-inline: inherit !important;
-  background-color: inherit !important;
   font-weight: inherit !important;
   border-radius: inherit !important;
-  color: inherit !important;
   border: inherit !important;
 }
