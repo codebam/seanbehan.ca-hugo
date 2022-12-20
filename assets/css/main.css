@@ -115,3 +115,10 @@ footer#footer {
   border-radius: inherit !important;
   border: inherit !important;
 }
+
+.cactus-login-form {
+  border-radius: inherit !important;
+  padding: 3rem !important;
+  box-shadow: inherit !important;
+  box-sizing: inherit !important;
+}
