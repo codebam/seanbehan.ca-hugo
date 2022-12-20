@@ -16,7 +16,7 @@ video {
   width: 1000px;
   max-width: 80vw;
 }
-html {
+body {
   background: url(https://codebam.tv/background.png) repeat;
 }
 </style>
