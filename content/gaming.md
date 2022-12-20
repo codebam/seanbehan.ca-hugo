@@ -13,8 +13,11 @@ title: "Gaming"
 <script type="module" src="/js/webrtc.js"></script>
 <style>
 video {
-    width: 1000px;
-    max-width: 80vw;
+  width: 1000px;
+  max-width: 80vw;
+}
+html {
+  background: url(https://codebam.tv/background.png) repeat;
 }
 </style>
 {{< /rawhtml >}}
