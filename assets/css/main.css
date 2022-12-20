@@ -101,6 +101,7 @@ footer#footer {
   text-align: inherit !important;
   line-height: inherit !important;
   color: inherit !important;
+  font-size: 1rem;
 }
 
 .cactus-editor-textarea {
