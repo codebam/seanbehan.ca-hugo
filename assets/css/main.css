@@ -101,19 +101,18 @@ footer#footer {
   text-align: inherit !important;
   line-height: inherit !important;
   color: inherit !important;
-  font-size: 1rem !important;
+  font-size: inherit !important;
 }
 
 .cactus-editor-textarea {
   height: inherit !important;
   border-radius: inherit !important;
-  font: inherit !important;
+  font-family: inherit !important;
 }
 
 .cactus-button {
-  font-weight: inherit !important;
-  border-radius: inherit !important;
-  border: inherit !important;
+  all: revert !important;
+  font-family: inherit !important;
 }
 
 .cactus-login-form {
