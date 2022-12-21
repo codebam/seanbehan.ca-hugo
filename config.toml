@@ -11,7 +11,7 @@ pygmentsUseClasses = true
 
 [params]
 description = "Sean Behan's personal website"
-src = "https://github.com/codebam/seanbehan.ca"
+src = "https://github.com/codebam/codebam.github.io"
 copyright = "Copyright ©2018-2022 Sean Behan"
 dark = "auto"
 highlight = false
