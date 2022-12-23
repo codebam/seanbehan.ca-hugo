@@ -15,6 +15,8 @@ title: "Gaming"
 video {
   width: 1000px;
   max-width: 80vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 </style>
 {{< /rawhtml >}}
