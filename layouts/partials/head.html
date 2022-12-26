@@ -19,9 +19,6 @@
 	{{ if .Params.highlight -}}
 	{{ printf `<link rel="stylesheet" href="/css/syntax.css">` | safeHTML }}
 	{{ end -}}
-	{{ if eq .RelPermalink "/gaming.html" -}}
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3287237463323384" crossorigin="anonymous"></script>
-	{{ end -}}
 
 	{{ if eq .RelPermalink "/" -}}
 	<title>{{ .Title }}</title>
