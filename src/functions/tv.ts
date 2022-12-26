@@ -7,6 +7,7 @@ async function modifyPage(response: Response) {
   const text = (await response.text())
     .replace(/Sean Behan\'s personal website/g, "codebam's livestream")
     .replace(/Sean Behan/g, "codebam.tv")
+    .replace(/favicon\.png/g, "tv-favicon.png")
     .replace(/seanbehan\.ca\/gaming.html/g, "codebam.tv")
     .replace(/<title.*<\/title>/g, "<title>codebam.tv</title>")
     .replace(/<header.*<\/header>/g, "")
