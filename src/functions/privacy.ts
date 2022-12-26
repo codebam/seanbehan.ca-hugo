@@ -5,9 +5,9 @@ const replaceSite = async (response: Response, site: string) => {
 };
 
 export const onRequestGet = async (context: EventContext<any, any, any>) => {
-  let site = context.request.url.replace(/\/privacy/g, "");
-  site = site.replace(/http[s]?:\/\//g, "");
-  return fetch(`${site}/privacy.txt`).then((response) =>
+  const url = context.request.url.replace(/\/privacy/g, "");
+  const site = url.replace(/http[s]?:\/\//g, "");
+  return fetch(`${url}/privacy.txt`).then((response) =>
     replaceSite(response, site)
   );
 };
