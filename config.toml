@@ -24,15 +24,15 @@ highlight = false
   [[menu.main]]
     identifier = "resumé"
     name = "resume"
-    url = "/resume.html"
+    url = "/resume"
   [[menu.main]]
     identifier = "contact"
     name = "contact"
-    url = "/contact.html"
+    url = "/contact"
   [[menu.main]]
     identifier = "gaming"
     name = "gaming"
-    url = "/gaming.html"
+    url = "/gaming"
 
 [permalinks]
 posts = "/:year/:month/:day/:filename"
