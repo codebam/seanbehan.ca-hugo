@@ -11,7 +11,7 @@ I have a passion for open source and Linux.
 <a id="me" rel="me" href="https://mstdn.social/@codebam"></a>
 <style>
 #me {
-    display: hidden;
+    display: none;
 }
 </style>
 {{< /rawhtml >}}
