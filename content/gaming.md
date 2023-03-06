@@ -21,6 +21,15 @@ video {
 </style>
 {{< /rawhtml >}}
 
+{{< rawhtml >}}
+<a id="me" rel="me" href="https://mstdn.social/@codebam"></a>
+<style>
+#me {
+    display: hidden;
+}
+</style>
+{{< /rawhtml >}}
+
 Watch on [Twitch](https://www.twitch.tv/codebam)
 
 Watch on [YouTube](https://www.youtube.com/@codebam)
