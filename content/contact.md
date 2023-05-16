@@ -12,3 +12,4 @@ date: 2022-6-1
 
 - [Shared Music Playlists](/playlists)
 - [Must watch Anime](/anime)
+- [Dream](/dream)
