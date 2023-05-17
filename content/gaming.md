@@ -22,7 +22,7 @@ video {
 {{< /rawhtml >}}
 
 {{< rawhtml >}}
-<a id="me" rel="me" href="https://mstdn.social/@codebam"></a>
+<a id="me" rel="me" href="https://mastodon.social/@seanwbehan"></a>
 <style>
 #me {
     display: none;
