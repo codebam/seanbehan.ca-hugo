@@ -1,0 +1,24 @@
+{{ if not (eq .Site.Params.dark "on") -}}
+@media (prefers-color-scheme: dark) {
+	{{ end -}}
+
+	html{
+		color: white;
+		background: black;
+	}
+
+	a {
+		color: #00b1ed;
+	}
+
+	main#content hr {
+		border-color: #5c5c5c;
+	}
+	main#content pre,
+	main#content code {
+		border: 1px solid #333;
+	}
+
+	{{- if not (eq .Site.Params.dark "on") -}}
+}
+{{- end -}}

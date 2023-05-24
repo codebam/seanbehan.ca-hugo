@@ -1,0 +1,98 @@
+html {
+	font-size: 16px;
+	line-height: 1.5rem;
+	font-family: sans-serif;
+}
+
+body {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 5rem;
+}
+
+header#banner {
+	margin: 2rem 0 0;
+}
+
+header#banner h2 {
+	display: inline;
+	font-size: 1.5rem;
+}
+
+header#banner nav {
+	display: inline-block;
+	padding: 0 0.5rem;
+}
+
+header#banner nav ul {
+	list-style-type: none;
+	font-size: 1.25rem;
+	margin: 0;
+	padding: 0
+}
+
+header#banner nav ul li {
+	display: inline;
+	margin: 0.25rem;
+}
+
+main#content h1,
+main#content h2,
+main#content h3 {
+	margin: 1.5rem 0 1rem;
+}
+
+/* index.html styles */
+main#content ul#posts {
+	list-style-type: none;
+	padding: 0;
+}
+
+main#content ul#posts li {
+	margin-bottom: 1rem;
+}
+
+/* single.html styles */
+main#content h1 {
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+main#content h2 {
+	font-size: 1.25rem;
+}
+
+main#content h3 {
+	font-size: 1.125rem;
+}
+
+main#content img {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+main#content code {
+	font-size: 16px;
+}
+
+main#content pre,
+main#content code {
+	border: 1px solid #e3e3e3;
+}
+
+main#content pre code {
+	border: none;
+}
+
+main#content pre {
+	overflow-y: visible;
+	overflow-x: scroll;
+	padding: 0.5rem;
+}
+
+main#content code {
+	padding: 0.1rem 0.25rem;
+}
+
+footer#footer {
+	margin: 2rem 0;
+}
