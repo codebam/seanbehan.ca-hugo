@@ -20,4 +20,4 @@ Once you've done this you can run your Flatpak like this to use Mesa git.
 FLATPAK_GL_DRIVERS=mesa-git flatpak run com.valvesoftware.Steam
 ```
 
-You can also put `FLATPAK_GL_DRIVERS=mesa-git` into your `.bashrc` or `.profile` to use Mesa git for all Flatpak applications. This may cause issues though, and I'd personally advise you only use it when it's needed.
+You can also export `FLATPAK_GL_DRIVERS=mesa-git` in your `.bashrc` or `.profile` to use Mesa git for all Flatpak applications. This may cause issues though, and I'd personally advise you only use it when it's needed.
