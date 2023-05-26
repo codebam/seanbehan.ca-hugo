@@ -29,10 +29,6 @@ highlight = false
     identifier = "contact"
     name = "contact"
     url = "/contact"
-  [[menu.main]]
-    identifier = "gaming"
-    name = "gaming"
-    url = "/gaming"
 
 [permalinks]
 posts = "/:year/:month/:day/:filename"
