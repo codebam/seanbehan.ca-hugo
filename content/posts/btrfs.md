@@ -1,6 +1,10 @@
 ---
 title: "BTRFS RAID1 and how to fix it"
 date: 2023-05-23T14:39:58Z
+tags:
+    - linux
+    - backup
+    - raid
 draft: false
 ---
 

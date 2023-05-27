@@ -1,6 +1,9 @@
 ---
 title: "2FA Everything"
 date: 2020-12-03T20:38:10-05:00
+tags:
+    - security
+    - linux
 draft: false
 ---
 

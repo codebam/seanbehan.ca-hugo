@@ -1,6 +1,11 @@
 ---
 title: "React.js Card"
 date: 2021-02-17T19:27:04-05:00
+tags:
+    - programming
+    - javascript
+    - css
+    - react
 draft: false
 ---
 

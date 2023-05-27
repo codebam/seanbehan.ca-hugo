@@ -1,6 +1,9 @@
 ---
 title: "Using any Linux Distribution with Flatpak"
 date: 2023-05-23T13:49:32Z
+tags:
+    - linux
+    - graphics
 draft: false
 ---
 

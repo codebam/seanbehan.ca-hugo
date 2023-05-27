@@ -1,6 +1,9 @@
 ---
 title: "Alpine Linux LBU"
 date: 2020-12-03T22:09:46-05:00
+tags:
+    - linux
+    - alpine
 draft: false
 ---
 

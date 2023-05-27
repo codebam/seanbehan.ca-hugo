@@ -1,6 +1,11 @@
 ---
 title: "WebSockets in Rust"
 date: 2019-11-26T21:56:22-05:00
+tags:
+    - rust
+    - websocket
+    - programming
+draft: false
 ---
 
 Today I'll show you how you can write incredibly fast code in Rust. This is

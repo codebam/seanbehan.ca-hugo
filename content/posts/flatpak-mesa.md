@@ -1,6 +1,9 @@
 ---
 title: "Flatpak Mesa Git"
 date: 2023-05-25T17:48:28Z
+tags:
+    - linux
+    - graphics
 draft: false
 ---
 
