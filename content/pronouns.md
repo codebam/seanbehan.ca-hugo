@@ -1,4 +1,4 @@
 ---
-aliases:
-    - https://my.pronouns.page/are/they/them
+title: Pronouns
 ---
+<https://my.pronouns.page/are/they/them/>
