@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "esbuild": "^0.17.19",
-    "esbuild-plugin-glob": "^2.2.1",
+    "esbuild-plugin-glob": "^2.2.2",
     "esbuild-svelte": "^0.7.3",
     "typescript": "^5.0.4"
   },
