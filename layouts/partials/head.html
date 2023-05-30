@@ -7,6 +7,8 @@
 	{{ printf `<link rel="shortcut icon" href="%s">` ("favicon.png" | absURL) | safeHTML }}
 	<link href="{{ .Site.BaseURL }}posts/index.xml" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}"/>
 	<link rel="canonical" href="https://seanbehan.ca{{ .RelPermalink }}"/>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3287237463323384"
+     crossorigin="anonymous"></script>
 	{{ $resources := slice -}}
 	{{ $resources = $resources | append (resources.Get "/css/main.css") -}}
 	{{ $resources = $resources | append (resources.Get "/css/narrow.css") -}}
