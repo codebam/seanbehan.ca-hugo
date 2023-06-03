@@ -2,7 +2,7 @@ baseURL = "/"
 relativeURLs = true
 languageCode = "en-ca"
 title = "Sean Behan"
-theme = "etch-custom"
+theme = "Hugo-Octopress"
 
 enableInlineShortcodes = true
 uglyurls = true
