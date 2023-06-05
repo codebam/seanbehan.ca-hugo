@@ -53,3 +53,4 @@ draft: false
 - <https://tidal.com/browse/playlist/2dc31e95-6538-404e-bfe8-dbc4fdd8a9f6/>
 - <https://tidal.com/browse/playlist/15c0b649-f6f6-4fa0-b03f-82d536730a94/>
 - <https://music.apple.com/ca/playlist/may-2023/pl.u-BNA6YjJT1pWdeXo/>
+- <https://music.apple.com/ca/playlist/june-2023/pl.u-Ymb09E5IPxAmgbK/>
