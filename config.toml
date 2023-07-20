@@ -29,6 +29,10 @@ highlight = false
     identifier = "contact"
     name = "contact"
     url = "/contact"
+  [[menu.main]]
+    identifier = "pastebin"
+    name = "pastebin"
+    url = "https://pastebin.seanbehan.ca"
 
 [permalinks]
 posts = "/:year/:month/:day/:filename"
