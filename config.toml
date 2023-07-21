@@ -33,6 +33,10 @@ highlight = false
     identifier = "pastebin"
     name = "pastebin"
     url = "https://pastebin.seanbehan.ca"
+  [[menu.main]]
+    identifier = "visitors"
+    name = "visitors"
+    url = "/visitors"
 
 [permalinks]
 posts = "/:year/:month/:day/:filename"
