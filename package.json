@@ -11,7 +11,7 @@
     "devDependencies": {}
   },
   "dependencies": {
-    "esbuild": "^0.18.16",
+    "esbuild": "^0.18.17",
     "esbuild-plugin-glob": "^2.2.2",
     "esbuild-svelte": "^0.7.4",
     "typescript": "^5.1.6"
