@@ -17,14 +17,14 @@ can even contain other cards and are easy to understand from the App.js.
 To create a new component I just create a new file called `Card.js` and import
 it at the top of `App.js`.
 
-```javascript
+{{< highlight javascript >}}
 import Card from './Card.js';
-```
+{{< / highlight >}}
 
 Then inside `Card.js` I can create my Card. At the top I import my styles and
 return the JSX Card object.
 
-```javascript
+{{< highlight javascript >}}
 import './Card.css';
 
 function Card(props) {
@@ -37,14 +37,14 @@ function Card(props) {
 }
 
 export default Card;
-```
+{{< / highlight >}}
 
 At the bottom I set the default export to Card so that we can import it
 properly in `App.js`.
 
 My styles are fairly simple, they just create a nice looking card.
 
-```css
+{{< highlight css >}}
 .Card {
   text-align: center;
   background-color: lightgrey;
@@ -67,17 +67,17 @@ My styles are fairly simple, they just create a nice looking card.
   border-top-right-radius: 0em;
   padding: 1em;
 }
-```
+{{< / highlight >}}
 
 That's great but we still have to insert our card in App.js. Now that we've
 created a component and imported it all I have to do in App.js to create a card
 is this.
 
-```jsx
+{{< highlight jsx >}}
 <Card cardTitle="Example Card Title">
     Hello World
 </Card>
-```
+{{< / highlight >}}
 
 Finally we can see that this builds a card.
 
