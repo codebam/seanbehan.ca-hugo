@@ -14,7 +14,7 @@ description = "Sean Behan's personal website"
 src = "https://github.com/codebam/codebam.github.io"
 copyright = "Copyright ©2018-2023 Sean Behan"
 dark = "auto"
-highlight = false
+highlight = true
 
 [menu]
   [[menu.main]]
