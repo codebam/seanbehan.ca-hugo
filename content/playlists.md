@@ -57,3 +57,4 @@ draft: false
 - <https://music.apple.com/ca/playlist/be-ok/pl.u-ZmblxojS0zN6VPX/>
 - <https://music.apple.com/ca/playlist/timeless/pl.u-Ymb096yCPxAmgbK/>
 - <https://music.apple.com/ca/playlist/july-2023/pl.u-vxy6kLDFz1VqWBj/>
+- <https://music.apple.com/ca/playlist/august-2023/pl.u-RRbV0o1t3x5lmgX/>
