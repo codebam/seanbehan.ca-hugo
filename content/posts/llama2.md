@@ -5,7 +5,7 @@ draft: false
 ---
 
 You might know I've made a Chat Bot
-(https://github.com/codebam/cf-workers-telegram-bot). Recently I added AI to it
+https://github.com/codebam/cf-workers-telegram-bot . Recently I added AI to it
 using Cloudflare AI. Here I'm going to show you how and how you too can make
 your own chatbot using Cloudflare AI.
 
