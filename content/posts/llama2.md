@@ -5,9 +5,9 @@ draft: false
 ---
 
 You might know I've made a Chat Bot
-https://github.com/codebam/cf-workers-telegram-bot . Recently I added AI to it
-using Cloudflare AI. Here I'm going to show you how and how you too can make
-your own chatbot using Cloudflare AI.
+[cf-workers-telegram-bot](https://github.com/codebam/cf-workers-telegram-bot).
+Recently I added AI to it using Cloudflare AI. Here I'm going to show you how
+and how you too can make your own chatbot using Cloudflare AI.
 
 First you'll want to add the AI section to your wrangler.toml.
 
@@ -43,3 +43,5 @@ I'm hoping for a 70B model soon :)
 If you want to use this to make a chat bot make sure when you restore the
 prompt you wrap user input in `[INST] [/INST]` tags so llama2 knows what was
 user input and what it said.
+
+If you want to try out my Chat Bot it's on [Telegram](https://t.me/TuxRobot).
