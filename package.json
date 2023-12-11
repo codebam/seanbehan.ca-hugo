@@ -14,7 +14,7 @@
     "esbuild": "^0.19.8",
     "esbuild-plugin-glob": "^2.2.3",
     "esbuild-svelte": "^0.8.0",
-    "typescript": "^5.3.2"
+    "typescript": "^5.3.3"
   },
   "description": "esbuild for seanbehan.ca",
   "homepage": "https://github.com/codebam/seanbehan.ca#readme",
