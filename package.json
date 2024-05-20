@@ -13,7 +13,7 @@
   "dependencies": {
     "esbuild": "^0.21.2",
     "esbuild-plugin-glob": "^2.2.3",
-    "esbuild-svelte": "^0.8.0",
+    "esbuild-svelte": "^0.8.1",
     "typescript": "^5.4.5"
   },
   "description": "esbuild for seanbehan.ca",
