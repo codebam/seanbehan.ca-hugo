@@ -37,6 +37,6 @@
   "type": "module",
   "version": "1.0.0",
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250414.0"
+    "@cloudflare/workers-types": "^4.20250421.0"
   }
 }
